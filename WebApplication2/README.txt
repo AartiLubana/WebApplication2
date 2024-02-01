@@ -24,17 +24,36 @@ I explored database interactions in ASP.NET Core MVC. I learned how to connect a
 Part 6: Controller Actions and Views
 I dived deeper into controller actions and views. I understood how to handle user requests, process data, and display the appropriate views.
 
-Part 7: Add Search:
-I enhanced my application by adding search functionality. I learned how to implement search features to help users find relevant information.
+##Part 7: Add Search to filter:
+I added search button to check records by filter.
+Then Navigated to /Movies/Index to displayed filtered movies.
+Opened the Views/Movies/Index.cshtml file, and added the form markup to get Title filter option for easy search.
 
-Part 8: Add a New Field:
-I extended my model by adding a new field (rating). I understood how to update a database to accommodate additional data.
+2024-01-26
+1530
+##Part 8: Add a New Field named Rating:
+First I Added the rating Property in Models/Movie.cs. 
+Later, Edited the /Views/Movies/Index.cshtml file and add a Rating field inside view templates in order to display.
+Updated the SeedData class so that it provides a value in between the genre and price field for the column Rating = "R",
+From the Tools menu, selected NuGet Package Manager > Package Manager Console In the PMC, enter the commands : Add-Migration Rating
+Update-Database to examine the current Movie model.
 
-Part 9: Add Validation:
-2024-01-1
-I implemented validation for my application, ensuring data integrity by validating user input and handling validation errors.
+Then I have varied the functionality of filter option by filtering bollywoord movies name, rating and genre.
 
-Open the Movie.cs file and examine the Movie class. 
+2024-01-31
+2110
+##Part 9: Add Validation:
+I have applied validation to confirm data accuracy by ensuring user input and handling validation errors.
+to examine the current Movie model.
+Confirmed that in the Movie class, attributes such as Required, StringLength, RegularExpression, Range and the DataType exist.
+In Next step I updated existing movie list with my 2 top most favorite Bollywood pictures.
+
+2024-01-31
+2158
+##Part 10: Examine Details and Delete methods:
+I have explored the details to check view and deletion operation.
+I have understood how to display users detailed information and allow them to delete records..
+At the end, Then I have varified the functionality of filter option by filtering bollywoord movies name, rating and genre 
 
 
 
