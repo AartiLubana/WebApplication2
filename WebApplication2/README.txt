@@ -19,7 +19,7 @@ I learned about models and how to add them to my MVC application. Models represe
 2308
 
 Part 5: Work with a Database
-I explored database interactions in ASP.NET Core MVC. I learned how to connect an application to a database and perform CRUD operations.
+I delved into database interactions in ASP.NET Core MVC, connecting the application to a database and performing CRUD operations.
 
 Part 6: Controller Actions and Views
 I dived deeper into controller actions and views. I understood how to handle user requests, process data, and display the appropriate views.
@@ -33,7 +33,7 @@ Opened the Views/Movies/Index.cshtml file, and added the form markup to get Titl
 1530
 ##Part 8: Add a New Field named Rating:
 First I Added the rating Property in Models/Movie.cs. 
-Later, Edited the /Views/Movies/Index.cshtml file and add a Rating field inside view templates in order to display.
+Then, Edited the /Views/Movies/Index.cshtml file and add a Rating field inside view templates in order to display.
 Updated the SeedData class so that it provides a value in between the genre and price field for the column Rating = "R",
 From the Tools menu, selected NuGet Package Manager > Package Manager Console In the PMC, enter the commands : Add-Migration Rating
 Update-Database to examine the current Movie model.
@@ -51,12 +51,12 @@ In Next step I updated existing movie list with my 2 top most favorite Bollywood
 2024-01-31
 2158
 ##Part 10: Examine Details and Delete methods:
-I have explored the details to check view and deletion operation.
-I have understood how to display users detailed information and allow them to delete records..
-At the end, Then I have varified the functionality of filter option by filtering bollywoord movies name, rating and genre 
+To ensure data accuracy, I applied validation by adding attributes such as Required, StringLength, RegularExpression, Range, and DataType to the Movie class.
+I updated the movie list with my top two favorite Bollywood pictures. 
 
 
 
 Part 10: Examine Details and Delete:
-I explored the details view and deletion functionality. I learned how to display detailed information and allow users to delete records.
+I explored the details view and deletion functionality, understanding how to display detailed information and allow users to delete records.
+I also verified the filter options by filtering Bollywood movies based on name, rating, and genre.
 
