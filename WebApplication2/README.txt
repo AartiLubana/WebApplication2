@@ -59,4 +59,3 @@ I updated the movie list with my top two favorite Bollywood pictures.
 Part 10: Examine Details and Delete:
 I explored the details view and deletion functionality, understanding how to display detailed information and allow users to delete records.
 I also verified the filter options by filtering Bollywood movies based on name, rating, and genre.
-
